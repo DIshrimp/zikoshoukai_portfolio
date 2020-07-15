@@ -1,0 +1,457 @@
+@charset "UTF-8";
+
+body                {
+                    padding: 0;
+                    margin: 0;
+                    background-color: #ffffff;
+                    font-family:'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+
+
+/* サイト名 */
+.title h1 a         {
+                    color: #000000;
+                    text-decoration: none;
+                    font-family: 'Josefin Slab', serif;
+}
+
+.title h1           {
+                    padding: 0;
+                    font-size: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 3px;
+}
+
+/* box1の設定 */
+.box1               {
+                    width: 100%;
+                    height: auto;
+                    padding: 0;
+                    margin: 0;
+                    background-color: #ffffff;
+                    border-bottom: solid 1px #000000;
+}
+
+
+
+/* box1のtitoleとnaviを横に */
+
+/* .box1:after         {
+                    content: "";
+                    display: block;
+                    clear: both;
+}
+
+.title              {
+                    float: left;
+                    width: auto;
+}
+
+.navi               {
+                    float: right;
+                    width: auto;
+} */
+
+/* フッター */
+.box5               {
+                    padding: 0;
+                    margin:0;
+                    border-top: solid 1px #eeeeee;
+}
+
+.box5 p             {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    font-size: 15px;
+                    font-family: 'Josefin Slab', serif;
+                    background-color: white;
+}
+
+/* ヘッダーイメージ設定 */
+.head-img             {
+                      width: 100%;
+                      height: auto;
+}
+
+/* ヘッダータイトル */
+.title2               {
+                      font-size: 65px;
+                      background-color: rgba(255, 255, 255, 0.226);
+                      font-family: 'Josefin Slab', serif;
+                      padding: 15px;
+                      font-weight: normal;
+}
+
+/* 画像の上にヘッダータイトル */
+.top                 {
+                      position: relative;
+}
+
+.title2               {
+                      position: absolute;
+                      top: 40%;
+                      left: 50%;
+                      transform: translate(-40%,-50%);
+                      -webkit-transform: translate(-40%,-50%);
+                      -ms-transform: translate(-40%,-50%);
+}
+
+
+/* box3 イメージ設定 */
+
+.kiji-img            {
+                    width: 350px;
+                    height: 350px;
+                    /* border-radius: 5% 5% 0 0; */
+                    border-radius: 5%;
+}
+
+/* 記事タイトル */
+.box3                {
+  padding-top: 70px;
+}
+
+.box3 h2            {
+                    padding: 0;
+                    margin-top: 25px;
+                    margin-bottom: 70px;
+                    text-align: center;
+                    font-size: 30px;
+                    color: #000000;
+                    font-family: 'Josefin Slab', serif;
+}
+
+/* 記事の形色 */
+.kiji               {
+                    margin-top: 60px;
+                    padding: 0;
+                    border-radius: 5%;
+                    text-align: center;
+}
+
+
+
+/* 記事の文章 */
+.kiji p             {
+                    padding-top: 2px;
+                    padding-bottom: 5px;
+                    margin: 0;
+                    font-size: 15px;
+}
+
+.kiji a             {
+                    color: #000000;
+}
+
+.kiji a:hover       {
+                    opacity: 0.7;
+                    color: #6666ff;
+}
+
+/* ツイッター、ギットハブアカウントボタン */
+.botn ul            {
+                    margin:0;
+                    padding: 0;
+                    list-style: none;
+}
+
+.botn li a          {
+                    display: block;
+                    margin-bottom: 25px;
+                    padding: 10px;
+                    border-radius: 4px;
+                    color: #ffffff;
+                    font-size: 14px;
+                    text-decoration: none;
+}
+
+.botn li a:hover    {
+                    opacity: 0.8;
+}
+
+.tw                 {background-color: #63bafb}
+.hub                {background-color: #000000}
+
+.botn i             {
+                    margin-right: 10px;
+                    font-size: 20px;
+                    vertical-align: middle;
+}
+
+
+/* 後書きテキスト */
+
+.box4               {
+                    padding-top: 70px;
+}
+
+.tenk               {
+                    text-align: center;
+                    border: solid 1px #000000;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    border-radius: 5px;;
+}
+.tenk h3            {
+                    font-size: 30px;
+                    font-family: 'Josefin Slab', serif;
+                    padding:0;
+                    margin: 0;
+}
+
+.tenk p             {
+                    font-size: 14px;
+                    -moz-box-sizing: border-box;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        padding-right: 20px;
+                        padding-left: 20px;
+}
+
+/* ボックスのよこに余白 */
+.boxA,.box3,.box4,.box5
+                      {
+                      margin-right: 15px;
+                      margin-left: 15px;
+}
+
+
+
+
+
+/* ############ 359px以下 ############ */
+@media(max-width: 359px)    {
+
+/* サイト名 */
+.title                    {
+                          width: 225px;
+                          height: auto;
+}
+
+/* ヘッダータイトル */
+.title2               {
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.226);
+  font-family: 'Josefin Slab', serif;
+  padding: 10px;
+  font-weight: normal;
+}
+
+/* 記事 */
+.kiji-img                   {
+                          width:100%;
+                          height:auto;
+}
+
+
+}
+/* ############ 599px以下　########### */
+@media (max-width: 599px) {
+
+  /* topタイトル */
+.title2               {
+                      padding:5px 10px;
+                      font-size: 25px;
+}
+}
+
+
+
+
+
+
+
+
+/* ############ 600px以上 ############# */
+@media (min-width: 600px)  {
+
+
+
+
+/* 記事を横に */
+.box3:after           {
+                      content: "";
+                      display: block;
+                      clear: both;
+}
+
+.kiji                 {
+                      float: left;
+                      width: 50%;
+}
+
+/* .box3 .kiji:nth-child(odd)
+                      {
+                      padding-right: 15px;
+                      -moz-box-sizing: border-box;
+                      -webkit-box-sizing: border-box;
+                      box-sizing: border-box;
+}
+
+.box3 .kiji:nth-child(even)
+                      {
+                        padding-left: 15px;
+                        -moz-box-sizing: border-box;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+} */
+}
+
+/* ############ 767px以下 ############# */
+@media (max-width: 767px)   {
+
+/* トグルボタン */
+#menu-btn                    {
+                            padding: 6px 12px;
+                            border: solid 1px #aaaaaa;
+                            border-radius: 5px;
+                            background-color: #ffffff;
+                            position: absolute;
+                            top: 20px;
+                            right: 15px;
+                            cursor: pointer;
+}
+
+#menu-btn:hover              {
+                            background-color: #dddddd;
+}
+
+#menu-btn:focus               {
+                              outline: none;
+}
+
+#menu-btn i                  {
+                            color: #888888;
+                            font-size: 18px;
+}
+
+#menu-btn span               {
+                            display: inline-block;
+                            text-indent: -9999px;
+}
+
+/* ナビゲーション縦 */
+#menu               {display: none}
+
+#menu ul            {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Josefin Slab', serif;
+}
+
+#menu li            {
+                    width: 100%;
+                    border-top: outset 1px #000000;
+}
+#menu li a          {
+  display:block;
+  padding-top: 10px;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#menu li a:hover    {
+  background-color: #6699ff;
+  transition-duration: 1s;
+}
+
+/* ヘッダータイトル */
+.title2               {
+  font-size: 25px;
+  padding: 10px;
+}
+}
+
+
+
+/* ############ 768px以上 ############# */
+@media (min-width: 768px){
+
+/* トグルボタン */
+#menu-btn               {display: none}
+
+ /* ナビゲーション設定横 */
+
+#menu                 {display: block !important}
+
+.navi ul            {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Josefin Slab', serif;
+}
+
+.navi li a          {
+  display:block;
+  padding-top: 36px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.top-btn             {background-color:#6666ff}
+.navi li a:hover    {
+  background-color: #6666ff;
+  transition-duration: 1s;
+}
+
+.navi li::after     {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.navi li            {
+  float:left;
+  width: auto;
+}
+
+.box1:after         {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.title              {
+  float: left;
+  width: auto;
+}
+
+.navi               {
+  float: right;
+  width: auto;
+}
+/* ボックス４の中身を横に並べる */
+.box4::after           {
+                        content: "";
+                        display: block;
+                        clear: both;
+}
+
+.tenk                 {
+                      float: left;
+                      width: 50%;
+}
+.botn                  {
+                      float: left;
+                      width: 50%;
+}
+
+}
+
+
+/* ############# 1190px以上############ */
+@media (min-width: 1190px) {
+.boxA,.box3,.box4,.box5 p     {
+                      width: 1140px;
+                      margin-right: auto;
+                      margin-left: auto;
+}
+}

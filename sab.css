@@ -1,0 +1,45 @@
+
+
+
+/* ################# self ############################ */
+
+
+/* タイトル */
+.title3              {
+                        padding-top: 70px;
+                        color: #000000;
+                        padding-bottom: 70px;
+                        font-family: 'Josefin Slab', serif;
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: normal;
+}
+
+/* 写真サイズ */
+.shou-img             {
+                      width: 350px;
+                      height: 350px;
+                      border-radius: 50%;
+}
+
+/* 真ん中寄せ */
+.skille               {
+                      width: 400px;
+                      text-align: center;
+                      margin-right: auto;
+                      margin-left: auto;
+                      padding-bottom: 70px;
+}
+
+.shoukai              {background-color: #eeeeee;
+                      padding: 25px;
+                      border-radius: 5%;
+                      font-size: 14px;
+}
+
+
+@media (min-width: 768px){
+.self-btn    {
+              background-color: #6666ff;
+}
+}
